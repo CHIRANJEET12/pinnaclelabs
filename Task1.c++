@@ -5,7 +5,6 @@
 
 using namespace std;
 
-// Product class
 class Product {
 public:
     int id;
@@ -15,7 +14,6 @@ public:
     Product(int id, string name, double price) : id(id), name(name), price(price) {}
 };
 
-// E-commerce system class
 class ECommerceSystem {
 private:
     vector<Product> products;
@@ -81,7 +79,6 @@ public:
     }
 };
 
-// Main function
 int main() {
     ECommerceSystem system;
     int choice, id;
